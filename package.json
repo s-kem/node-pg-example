@@ -1,0 +1,20 @@
+{
+  "name": "node-pg-server-skel",
+  "version": "1.0.0",
+  "description": "Node Server Connecting to PG DB",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node src/index.js",
+    "start": "NODE_ENV=production node src/index.js",
+    "build": "docker build -t node-pg-server-skel ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "piping": "^1.0.0-rc.4"
+  }
+}
